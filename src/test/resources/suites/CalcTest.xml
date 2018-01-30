@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UnitCalcTest">
+    <test name="Calculator" parallel="classes">
+        <classes>
+            <class name="epam.tat.task3.CosTest"></class>
+            <class name="epam.tat.task3.SinTest"></class>
+            <class name="epam.tat.task3.CtgTest"></class>
+            <class name="epam.tat.task3.TgTest"></class>
+            <class name="epam.tat.task3.IsNegativeTest"></class>
+            <class name="epam.tat.task3.IsPositiveTest"></class>
+            <class name="epam.tat.task3.DivDoubleTest"></class>
+            <class name="epam.tat.task3.DivLongTest"></class>
+            <class name="epam.tat.task3.MultiplyDoubleTest"></class>
+            <class name="epam.tat.task3.MultiplyLongTest"></class>
+            <class name="epam.tat.task3.SqrtTest"></class>
+            <class name="epam.tat.task3.SubDoubleTest"></class>
+            <class name="epam.tat.task3.SubLongTest"></class>
+            <class name="epam.tat.task3.SumLongTest"></class>
+            <class name="epam.tat.task3.SumDoubleTest"></class>
+        </classes>
+    </test>
+
+    <test name="OnlyTrigonometry">
+        <groups>
+            <run>
+                <include name="Trigonometry"></include>
+                <exclude name="Arithmetic"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="epam.tat.task3.CosTest"></class>
+            <class name="epam.tat.task3.SinTest"></class>
+            <class name="epam.tat.task3.CtgTest"></class>
+            <class name="epam.tat.task3.TgTest"></class>
+            <class name="epam.tat.task3.IsNegativeTest"></class>
+            <class name="epam.tat.task3.IsPositiveTest"></class>
+            <class name="epam.tat.task3.DivDoubleTest"></class>
+            <class name="epam.tat.task3.DivLongTest"></class>
+            <class name="epam.tat.task3.MultiplyDoubleTest"></class>
+            <class name="epam.tat.task3.MultiplyLongTest"></class>
+            <class name="epam.tat.task3.SqrtTest"></class>
+            <class name="epam.tat.task3.SubDoubleTest"></class>
+            <class name="epam.tat.task3.SubLongTest"></class>
+            <class name="epam.tat.task3.SumLongTest"></class>
+            <class name="epam.tat.task3.SumDoubleTest"></class>
+        </classes>
+    </test>
+</suite>
