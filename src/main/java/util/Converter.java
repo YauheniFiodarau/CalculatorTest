@@ -1,6 +1,6 @@
-package epam.tat.task3.util;
+package util;
 
-import epam.tat.task3.exception.InvalidDataException;
+import exception.InvalidDataException;
 
 public class Converter {
 

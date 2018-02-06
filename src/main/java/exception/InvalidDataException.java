@@ -1,4 +1,4 @@
-package epam.tat.task3.exception;
+package exception;
 
 public class InvalidDataException extends Exception {
     public InvalidDataException() {

@@ -1,7 +1,7 @@
 package epam.tat.task3;
 
-import epam.tat.task3.exception.InvalidDataException;
-import epam.tat.task3.util.Converter;
+import exception.InvalidDataException;
+import util.Converter;
 import org.junit.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
